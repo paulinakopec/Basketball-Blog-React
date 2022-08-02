@@ -1,0 +1,84 @@
+.footer {
+    width: 100vw;
+    height: 220px;
+    display: flex;
+}
+
+.footerLeft, .footerMiddle, .footerRight {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerLeft {
+    justify-content: flex-end;
+}
+
+.copyrightText, .copyright {
+    padding: 10px 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.copyrightText {
+    font-weight: 200;
+}
+
+.copyright {
+    font-weight: 600;
+}
+
+.footerMiddle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.footerMiddleTitle {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footerList {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0;
+}
+
+.listItem {
+    width: 35%;
+    padding: 5px 0px;
+    text-align: center;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.listItem:hover {
+    transform: scale(1.2);
+    transition: 0.5s ease-in;
+}
+
+.footerRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.contactItem {
+    display: flex;
+    align-items: center;
+    padding: 10px 0 10px 40px;
+}
+
+.contactText {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 200;
+    padding-left: 10px;
+}
