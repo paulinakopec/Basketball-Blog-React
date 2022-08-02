@@ -1,0 +1,85 @@
+.singlePost {
+    flex: 9;
+}
+
+.singlePostWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.singlePostTitle {
+    width: 60vw;
+    margin: 70px auto 10px auto;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.singlePostSubtitle {
+    width: 60vw;
+    margin: 0px auto 20px auto;
+    font-family: 'Varela Round', sans-serif;
+}
+
+hr {
+    width: 60vw;
+    margin: auto;
+}
+
+.singlePostDetails {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60vw;
+    margin: 20px auto;
+}
+
+.writerDetails {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 12px;
+}
+
+.singlePostWriterName {
+    margin-left: 10px;
+}
+
+.singlePostDate {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 12px;
+}
+
+.singlePostWriterImg {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.singlePostImg {
+    width: 60vw;
+    margin: auto;
+}
+
+.singlePostImgDescription {
+    width: 60vw;
+    margin: 5px auto 40px auto;
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.singlePostDescription {
+    width: 60vw;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.singlePostDescription::first-letter {
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 10px;
+}

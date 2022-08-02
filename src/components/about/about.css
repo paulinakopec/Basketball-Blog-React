@@ -1,0 +1,12 @@
+.about {
+    display: flex;
+}
+
+.aboutImg {
+    width: 60vw;
+
+}
+
+.aboutDescription {
+    flex: 1;
+}
