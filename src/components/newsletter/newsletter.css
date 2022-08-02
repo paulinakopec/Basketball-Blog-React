@@ -1,0 +1,48 @@
+.newsletter {
+    width: 100vw;
+    height: 200px;
+    background-color: black;
+}
+
+.newsletterTitle {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.newsletterSubtitle {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.emailInput {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;;
+}
+
+.newsletterInput {
+    width: 180px;
+    padding: 10px;
+}
+
+.signUpButton {
+    margin-top: 0;
+    margin-left: 10px;
+    width: 184px;
+    cursor: pointer;
+}
+
+.signUpButton:hover {
+    background-color: white;
+    color: black;
+    transition: 1.5s ease-in-out;
+}
+
+
+
