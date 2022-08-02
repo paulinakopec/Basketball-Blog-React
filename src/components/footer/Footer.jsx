@@ -15,8 +15,6 @@ const Footer = () => {
                 ullam distinctio accusantium quis.
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
                 Vel soluta id assumenda tempore. 
-                Quidem ratione culpa explicabo, sint fuga fugiat eaque enim doloribus nisi incidunt saepe, 
-                ullam distinctio accusantium quis.
             </p>
             <div className="copyright">@2022 BALLIN', All rights reserved.</div>
         </div>
