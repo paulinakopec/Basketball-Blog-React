@@ -10,7 +10,6 @@ const Home = () => {
         <Header></Header>
         <div className="home">
             <Posts></Posts>
-            <Sidebar></Sidebar>
         </div>
     </>
   );
