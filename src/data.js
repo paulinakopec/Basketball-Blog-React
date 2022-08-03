@@ -54,7 +54,7 @@ export const postItems = [
         title: '76ers under investigation for tampering in free agency',
         category: 'News',
         category2: 'Teams',
-        date: '07/31/2022 10.30 a.m.',
+        date: 'July 31, 2022 10:30 AM',
     },
     {
         id: 5,
@@ -62,13 +62,13 @@ export const postItems = [
         title: 'Harden officially signed deal with 76ers',
         category: 'NBA',
         category2: 'Player',
-        date: '07/28/2022 7.25 p.m.',
+        date: 'July 28, 2022 7:25 PM',
     },
     {
         id: 6,
         img: 'https://cdn.nba.com/manage/2022/07/slava-medvedenko-poses-lakers-rings.jpg',
         title: 'Medvedenko auctions championship rings for Ukraine',
         category: 'News',
-        date: '07/26/2022 4.45 p.m.',
+        date: 'July 26, 2022 4:45 PM',
     },
 ]
