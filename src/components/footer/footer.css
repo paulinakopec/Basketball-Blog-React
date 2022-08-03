@@ -83,3 +83,12 @@
     font-weight: 200;
     padding-left: 20px;
 }
+
+.contactImg {
+    cursor: pointer;
+}
+
+.contactImg:hover {
+    transform: scale(1.2);
+    transition: 0.5s ease-in;
+}

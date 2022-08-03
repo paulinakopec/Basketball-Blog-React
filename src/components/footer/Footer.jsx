@@ -35,11 +35,11 @@ const Footer = () => {
         </div>
         <div className="footerRight">
             <div className="contactItem">
-                <img src={Mail} alt="" className="contactImg" />
+                <a href="mailto:paulinakopec32@gmail.com"><img src={Mail} alt="" className="contactImg" /></a>
                 <p className="contactText">paulinakopec32@gmail.com</p>
             </div>
             <div className="contactItem">
-                <img src={Phone} alt="" className="contactImg" />
+                <a href="tel:+48518602797"><img src={Phone} alt="" className="contactImg" /></a>
                 <p className="contactText">+48 518 602 797</p>
             </div>
             <div className="contactItem">
