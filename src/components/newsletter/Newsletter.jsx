@@ -7,7 +7,7 @@ const Newsletter = () => {
         <h2 className="newsletterTitle">NEWSLETTER</h2>
         <p className="newsletterSubtitle">Sign up to receive daily basketball news.</p>
         <div className="emailInput">
-            <input type="text" placeholder="Your email..." className="newsletterInput" />
+            <input type="text" placeholder="Your email..." className="newsletterInput" autoFocus={true}/>
             <button className="signUpButton">SIGN UP</button>
         </div>
     </div>
