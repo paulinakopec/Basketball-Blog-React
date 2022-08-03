@@ -4,6 +4,7 @@ import { sliderItems } from '../../data';
 import { useState } from 'react';
 import ArrowRight from '../../img/arrow_right.png';
 import ArrowLeft from '../../img/arrow_left.png';
+import { Link } from "react-router-dom";
 
 
 const Header = () => {
@@ -28,7 +29,7 @@ const Header = () => {
                     </div>
                     <div className='infoContainer'>
                         <h1 className='title'>{item.title}</h1>
-                        <button>READ MORE</button>
+                        <Link to="/news/billrussell" style={{textDecoration:"none", color:"inherit"}}><button>READ MORE</button></Link>
                     </div>
                 </div>
             ))}
