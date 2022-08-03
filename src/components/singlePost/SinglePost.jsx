@@ -18,7 +18,7 @@ const SinglePost = () => {
                     <img src={Profile} alt="" className="singlePostWriterImg" />
                     <p className="singlePostWriterName">Paulina Kopec</p>
                 </div>
-                <p className="singlePostDate">August 2, 2022 13:58 PM</p>
+                <p className="singlePostDate">August 2, 2022 2:58 PM</p>
             </div>
             <img 
             src="https://gfx.sport.radiozet.pl/var/radiozetsport2/storage/images/inne-sporty/nie-zyje-legenda-boston-celtics-w-wieku-88-lat-zmarl-bill-russell/7449160-1-pol-PL/Nie-zyje-Bill-Russell.-11-krotny-mistrz-NBA-zmarl-w-wieku-88-lat_article_north.png" 
