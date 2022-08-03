@@ -1,6 +1,6 @@
 .container {
     width: 100%;
-    height: calc(100vh - 50px);
+    height: calc(100vh - 60px);
     display: flex;
     overflow: hidden;
 }
@@ -21,7 +21,7 @@
 
 .sliderImg {
     width: 100vw;
-    height: calc(100vh - 50px);
+    height: calc(100vh - 60px);
     object-fit: cover;
 }
 

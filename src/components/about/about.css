@@ -24,11 +24,10 @@
     margin-left: 5px;
 }
 
-
 .imgContainer {
     display: flex;
     width: 100vw;
-    clip-path: polygon(0 15%, 100% 0%, 100% 100%, 0% 100%);
+    /* clip-path: polygon(0 15%, 100% 0%, 100% 100%, 0% 100%); */
 }
 
 .aboutImg {
