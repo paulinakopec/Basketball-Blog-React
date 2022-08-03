@@ -28,10 +28,9 @@ const Sidebar = () => {
         <div className="sidebarItem">
             <span className="sidebarTitle">FOLLOW US</span>
             <div className="sidebarSocialContainer">
-                <i className="sidebarIcon fa-brands fa-square-facebook"></i>
-                <i className="sidebarIcon fa-brands fa-instagram"></i>
-                <i className="sidebarIcon fa-brands fa-square-github"></i>
-                <i className="sidebarIcon fa-brands fa-linkedin"></i>                
+                <a href="https://github.com/paulinakopec" target="blank_" style={{color:"black"}}><i className="sidebarIcon fa-brands fa-square-github"></i></a>
+                <a href="https://www.linkedin.com/in/paulina-kope%C4%87-b11365183/" target="blank_" style={{color:"black"}}><i className="sidebarIcon fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/smallwaves.ceramics/" target="blank_" style={{color:"black"}}><i className="sidebarIcon fa-brands fa-instagram"></i></a>              
             </div>
 
         </div>
