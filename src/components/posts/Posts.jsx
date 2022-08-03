@@ -20,7 +20,6 @@ const Posts = () => {
             <span className="postTitle">
               {item.title}
             </span>
-            <hr />
             <span className="postDate">{item.date}</span>
           </div>
           <p className="postDescription">
