@@ -1,0 +1,75 @@
+.contact {
+    display: flex;
+    min-height: calc(100vh - 480px);
+    margin-bottom: 30px;
+}
+
+.contactTitleContainer {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.contactTitle {
+    width: 25vw;
+    font-size: 50px;
+}
+
+.contactSubtitle {
+    margin-top: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+input::placeholder , textarea::placeholder{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+textarea::placeholder {
+    padding-top: 5px;
+}
+
+.contactForm {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+
+.textFormElement {
+    width: 400px;
+    height: 25px;
+    margin-top: 10px;
+    padding-left: 10px;
+    border: 1px solid black;
+}
+
+.textareaFormElement {
+    width: 400px;
+    height: 80px;
+    margin-top: 10px;
+    padding-left: 10px;
+    border: 1px solid black;
+}
+
+.submitButton {
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+    border: 1px solid black;
+    color: black;
+    background-color: transparent;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.submitButton:hover {
+    background-color: black;
+    color: white;
+    transition: 1s ease-in-out;
+}
