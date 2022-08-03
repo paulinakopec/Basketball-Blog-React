@@ -45,11 +45,16 @@
 }
 
 .topListItem {
-    margin-right: 20px;
+    margin-right: 25px;
     font-size: 18px;
     font-weight: 300;
     color: white;
     cursor: pointer;
+}
+
+.topListItem:hover {
+    transform: scale(1.2);
+    transition: 0.5s ease-in-out;
 }
 
 .topSearchIcon {
