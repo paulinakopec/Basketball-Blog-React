@@ -39,7 +39,7 @@
     text-transform: uppercase;
     font-weight: 600;
     font-size: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .footerList {
@@ -49,13 +49,14 @@
     align-items: center;
     justify-content: center;
     padding-left: 0;
+    width: 15vw;
 }
 
 .listItem {
     width: 35%;
     padding: 5px 0px;
     text-align: center;
-    font-weight: 300;
+    font-weight: 400;
     cursor: pointer;
 }
 
@@ -80,5 +81,5 @@
 .contactText {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 200;
-    padding-left: 10px;
+    padding-left: 20px;
 }
