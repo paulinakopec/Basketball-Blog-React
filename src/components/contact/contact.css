@@ -55,17 +55,19 @@ textarea::placeholder {
     margin-top: 10px;
     padding-left: 10px;
     border: 1px solid black;
+    margin-bottom: 10px;
 }
 
 .submitButton {
     width: 200px;
     height: 40px;
-    margin-top: 10px;
     border: 1px solid black;
     color: black;
     background-color: transparent;
     text-transform: uppercase;
     cursor: pointer;
+    padding: 0;
+    margin-top: 10px;
 }
 
 .submitButton:hover {
