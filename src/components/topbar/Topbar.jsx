@@ -1,6 +1,5 @@
 import React from 'react';
 import '../topbar/topbar.css';
-import Profile from '../../img/profile.JPG';
 
 const Topbar = () => {
   return (
@@ -21,10 +20,10 @@ const Topbar = () => {
             </ul>
         </div>
         <div className="topRight">
+            <a href="https://www.instagram.com/smallwaves.ceramics/" target="blank_"><i className="topIcon fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/paulinakopec" target="blank_"><i className="topIcon fa-brands fa-square-github"></i></a>
+            <a href="https://www.linkedin.com/in/paulina-kope%C4%87-b11365183/" target="blank_"><i className="topIcon fa-brands fa-linkedin"></i></a>
             <i className="topIcon fa-brands fa-square-facebook"></i>
-            <i className="topIcon fa-brands fa-instagram"></i>
-            <i className="topIcon fa-brands fa-square-github"></i>
-            <i className="topIcon fa-brands fa-linkedin"></i>
         </div>
     </div>
   )
