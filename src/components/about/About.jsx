@@ -14,7 +14,7 @@ const About = () => {
               Hi! My name is Paulina and I am the author of this blog, which was created due to my long-time love to basketball. 
               <br></br><br></br>I am a basketball player recently playing in DPD team in an amateur basketball league called "Koszykarska Liga Biznesu" in Warsaw
               and streetball on indoor and outdoor courts. In the past, I was part of AZS SGH Basketball Team, Chicago Bulls Team in Ladies League, AKS Zły and La Basket Warsaw.
-              <br></br><br></br>In this blog, I focus mainly on NBA news, but also what's going on in Europe - mainly Eurobasket - and in Poland - PZKosz.
+              <br></br><br></br>In this blog, I focus mainly on NBA news, but also on what's going on in Europe - mainly Eurobasket - and in Poland - PZKosz.
           </p>
         </div>
         <div className="imgContainer">
