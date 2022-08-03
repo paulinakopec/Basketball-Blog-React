@@ -1,12 +1,39 @@
 .about {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
-.aboutImg {
-    width: 60vw;
-
+.descriptionContainer {
+    width: 100vw;
+    height: 40vh;
 }
 
 .aboutDescription {
-    flex: 1;
+    padding: 50px 100px;
+    line-height: 20px;
 }
+
+.aboutDescription::first-letter {
+    font-size: 40px;
+    margin-left: 5px;
+}
+
+
+.imgContainer {
+    display: flex;
+    width: 100vw;
+    clip-path: polygon(0 15%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.aboutImg {
+    width: 25vw;
+    height:50vh;
+    object-fit: cover;
+}
+
+
+
+
