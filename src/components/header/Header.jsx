@@ -17,19 +17,19 @@ const Header = () => {
         }
     }
   return (
-    <div className='container'>
+    <div className='headerContainer'>
         <div className='arrowLeft' direction='left' onClick={() => handleClick('left')}>
             <img src={ArrowLeft} alt="" />
         </div>
         <div className='wrapper' slideIndex = {slideIndex}>
             {sliderItems.map((item) => (    
                 <div className='slide' key={item.id}>
-                    <div className='imgContainer'>
+                    <div className='headerImgContainer'>
                         <img className='sliderImg' src={item.img} alt=''></img>
                     </div>
-                    <div className='infoContainer'>
-                        <h1 className='title'>{item.title}</h1>
-                        <Link to="/news/billrussell" style={{textDecoration:"none", color:"inherit"}}><button>READ MORE</button></Link>
+                    <div className='headerInfoContainer'>
+                        <h1 className='headerTitle'>{item.title}</h1>
+                        <Link to="/news/billrussell" style={{textDecoration:"none", color:"inherit"}}><button className="headerButton">READ MORE</button></Link>
                     </div>
                 </div>
             ))}

@@ -1,4 +1,4 @@
-.container {
+.headerContainer {
     width: 100%;
     height: calc(100vh - 60px);
     display: flex;
@@ -45,7 +45,7 @@
     width: 100%;
 }
 
-.infoContainer {
+.headerInfoContainer {
     position: absolute;
     top: 15%;
     right: 5%;
@@ -57,12 +57,12 @@
     width: 30vw;
 }
 
-.title {
+.headerTitle {
     font-size: 50px;
     text-align: center;
 }
 
-button {
+.headerButton {
     color: white;
     background-color: transparent;
     border: 2px solid white;
@@ -72,7 +72,7 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+.headerButton:hover {
     color: black;
     background-color: white;
     transition: 1s ease-in-out;
