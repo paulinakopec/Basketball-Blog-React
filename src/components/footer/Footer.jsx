@@ -17,6 +17,11 @@ const Footer = () => {
                 Vel soluta id assumenda tempore. 
             </p>
             <div className="copyright">@2022 BALLIN', All rights reserved.</div>
+            <div className="socialIcons">
+                <a href="https://github.com/paulinakopec" target="blank_"><i className="socialIcon fa-brands fa-square-github"></i></a>
+                <a href="https://www.linkedin.com/in/paulina-kope%C4%87-b11365183/" target="blank_"><i className="socialIcon fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/smallwaves.ceramics/" target="blank_"><i className="socialIcon fa-brands fa-instagram"></i></a>
+            </div>
         </div>
         <div className="footerMiddle">
             <h2 className="footerMiddleTitle">Useful Links</h2>

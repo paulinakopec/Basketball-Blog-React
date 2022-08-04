@@ -5,6 +5,7 @@ import { sliderItems } from '../../data';
 import ArrowRight from "../../img/arrow_right.png";
 import ArrowLeft from "../../img/arrow_left.png";
 import { Link } from 'react-router-dom';
+import { mobile } from '../../responsive';
 
 
 const Container = styled.div`
@@ -12,6 +13,7 @@ const Container = styled.div`
     height: calc(100vh - 60px);
     display: flex;
     overflow: hidden;
+    ${mobile({display: "none"})}
 `;
 
 const Wrapper = styled.div`

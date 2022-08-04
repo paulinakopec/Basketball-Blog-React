@@ -84,3 +84,24 @@ hr {
     font-weight: 600;
     margin-left: 10px;
 }
+
+@media screen and (max-width: 480px) {
+
+    .singlePostTitle, .singlePostSubtitle, hr, 
+    .singlePostDetails, .singlePostImg, .singlePostImgDescription,
+    .singlePostDescription {
+        width: 90vw;
+    }
+
+    .singlePostTitle {
+        margin: 30px auto 10px;
+    }
+
+    .singlePostImgDescription {
+        margin: 5px auto 20px auto;
+    }
+
+    .singlePostDescription {
+        margin-bottom: 30px;
+    }
+}

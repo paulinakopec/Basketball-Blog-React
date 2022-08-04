@@ -75,3 +75,35 @@ textarea::placeholder {
     color: white;
     transition: 1s ease-in-out;
 }
+
+@media screen and (max-width: 480px) {
+    .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contactTitleContainer {
+        width: 80vw;
+        margin: 20px 10px;
+    }
+
+    .contactTitle {
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .contactForm {
+        width: 80vw;
+        margin-top: 10px;
+    }
+
+    .textFormElement, .textareaFormElement {
+        width: 250px;
+    }
+
+    .submitButton {
+        width: 264px;
+    }
+}

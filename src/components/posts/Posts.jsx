@@ -1,6 +1,7 @@
 import React from 'react';
 import '../posts/posts.css';
 import { postItems } from '../../data';
+import { Link } from 'react-router-dom';
 
 const Posts = () => {
   return (
@@ -18,7 +19,7 @@ const Posts = () => {
               </span>
             </div>
             <span className="postTitle">
-              {item.title}
+              <Link to="/news/billrussell" className="link">{item.title}</Link>
             </span>
             <span className="postDate">{item.date}</span>
           </div>
