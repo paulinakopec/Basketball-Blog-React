@@ -48,5 +48,14 @@
     transition: 1s ease-in-out;
 }
 
+@media screen and (max-width: 480px) {
+    .newsletterInput {
+        width: 120px;
+    }
+
+    .signUpButton {
+        width: 120px;
+    }
+}
 
 
