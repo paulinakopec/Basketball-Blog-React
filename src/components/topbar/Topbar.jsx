@@ -8,21 +8,21 @@ const Topbar = () => {
         <div className="topLeft">
             <div className="logo">
                 <h1 className="logo">
-                    <Link to="/" style={{textDecoration:"none", color:"inherit"}}>BALLIN'</Link>
+                    <Link to="/" className="link">BALLIN'</Link>
                 </h1>
             </div>
         </div>
         <div className="topCenter">
             <ul className="topList">
                 <li className="topListItem">
-                    <Link to="/" style={{textDecoration:"none", color:"inherit"}}>HOME</Link>
+                    <Link to="/" className="link">HOME</Link>
                 </li>
                 <li className="topListItem">CATEGORIES</li>
                 <li className="topListItem">
-                    <Link to="/about" style={{textDecoration:"none", color:"inherit"}}>ABOUT ME</Link>
+                    <Link to="/about" className="link">ABOUT ME</Link>
                 </li>
                 <li className="topListItem">
-                    <Link to="/contact" style={{textDecoration:"none", color:"inherit"}}>CONTACT</Link>
+                    <Link to="/contact" className="link">CONTACT</Link>
                 </li>
             </ul>
         </div>
