@@ -2,12 +2,12 @@ export const sliderItems = [
     {
         id: 1,
         img: 'https://bi.im-g.pl/im/2b/69/1b/z28744235AMP,Bill-Russell--z-lewej--i--Red--Auerbach--slynny-tr.jpg',
-        title: 'Bill Russell dies at age 88.',
+        title: 'Bill Russell dies at age 88',
     },
     {
         id: 2,
         img: 'https://images.eurohoops.net/2019/05/a9d6b273-draymond-green-golden-state-warriors-625x375.jpg',
-        title: 'Draymond Green calls for maximum contract.',
+        title: 'Draymond Green calls for maximum contract',
     },
     {
         id: 3,
