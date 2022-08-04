@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { useEffect } from "react";
 
 // components
 import Topbar from "./components/topbar/Topbar";
@@ -13,6 +14,9 @@ import AboutMe from "./pages/aboutme/AboutMe";
 import ContactPage from "./pages/contact/ContactPage";
 
 function App() {
+  useEffect(() => {
+  window.scrollTo(0, 0)
+}, [])
   return (
     <BrowserRouter>
 {/* topbar is a component visible on each page */}
