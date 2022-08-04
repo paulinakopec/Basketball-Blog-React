@@ -5,10 +5,10 @@
     overflow: hidden;
 }
 
-.wrapper {
+.headerWrapper {
     display: flex;
     transition: all 1.5s ease;
-    /* transform: translateX(-100vw); */
+    transform: translateX(${(props)=>props.slideIndex * -100}vw);
 }
 
 .slide {
