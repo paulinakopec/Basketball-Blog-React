@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../contact/contact.css';
 
 const Contact = () => {
+  const [submitButton, setSubmitButton] = useState('SUBMIT');
+  const changeSubmitButton = () => {
+    setSubmitButton('Submitted');
+  }
+
   return (
     <div className="contact">
         <div className="contactTitleContainer">
@@ -19,7 +24,7 @@ const Contact = () => {
             <input type="text" className="textFormElement" placeholder="phone number" name="" id="" />
             <input type="text" className="textFormElement" placeholder="subject" name="" id="" />
             <textarea className="textareaFormElement" placeholder="message" name="" id="" rows="5"></textarea>
-            <button className="submitButton">Submit</button>
+            <button className="submitButton" onClick={changeSubmitButton}>{submitButton}</button>
         </form>
     </div>
   )
