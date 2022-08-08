@@ -4,7 +4,7 @@ import '../contact/contact.css';
 const Contact = () => {
   const [submitButton, setSubmitButton] = useState('SUBMIT');
   const changeSubmitButton = () => {
-    setSubmitButton('Submitted');
+    setSubmitButton('SUBMITTED');
   }
 
   return (
