@@ -3,8 +3,9 @@ import '../contact/contact.css';
 
 const Contact = () => {
   const [submitButton, setSubmitButton] = useState('SUBMIT');
-  const changeSubmitButton = () => {
+  const changeSubmitButton = (e) => {
     setSubmitButton('SUBMITTED');
+    e.preventDefault();
   }
 
   return (
@@ -18,13 +19,13 @@ const Contact = () => {
             </p>
         </div>
         <form className="contactForm">
-            <input type="text" className="textFormElement" placeholder="name" name="" id="" />
+            <input type="text" className="textFormElement" placeholder="name" name="" id="" required/>
             <input type="text" className="textFormElement" placeholder="surname" name="" id="" />
             <input type="text" className="textFormElement" placeholder="e-mail" name="" id="" />
             <input type="text" className="textFormElement" placeholder="phone number" name="" id="" />
             <input type="text" className="textFormElement" placeholder="subject" name="" id="" />
             <textarea className="textareaFormElement" placeholder="message" name="" id="" rows="5"></textarea>
-            <button className="submitButton" onClick={changeSubmitButton}>{submitButton}</button>
+            <button type="submit" className="submitButton" onClick={changeSubmitButton}>{submitButton}</button>
         </form>
     </div>
   )
