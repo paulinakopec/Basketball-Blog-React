@@ -19,7 +19,7 @@ const Contact = () => {
             </p>
         </div>
         <form className="contactForm">
-            <input type="text" className="textFormElement" placeholder="name" name="" id="" required/>
+            <input type="text" className="textFormElement" placeholder="name" name="" id=""/>
             <input type="text" className="textFormElement" placeholder="surname" name="" id="" />
             <input type="text" className="textFormElement" placeholder="e-mail" name="" id="" />
             <input type="text" className="textFormElement" placeholder="phone number" name="" id="" />
