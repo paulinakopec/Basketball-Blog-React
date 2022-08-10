@@ -2,6 +2,12 @@ import React, { useState } from 'react';
 import '../contact/contact.css';
 
 const Contact = () => {
+  const [name, setName] = useState('');
+  const [surname, setSurname] = useState('');
+  const [email, setEmail] = useState('');
+  const [number, setNumber] = useState('');
+  const [subject, setSubject] = useState('');
+  const [message, setMessage] = useState('');
   const [submitButton, setSubmitButton] = useState('SUBMIT');
   const changeSubmitButton = (e) => {
     setSubmitButton('SUBMITTED');
@@ -19,12 +25,61 @@ const Contact = () => {
             </p>
         </div>
         <form className="contactForm">
-            <input type="text" className="textFormElement" placeholder="name" name="" id=""/>
-            <input type="text" className="textFormElement" placeholder="surname" name="" id="" />
-            <input type="text" className="textFormElement" placeholder="e-mail" name="" id="" />
-            <input type="text" className="textFormElement" placeholder="phone number" name="" id="" />
-            <input type="text" className="textFormElement" placeholder="subject" name="" id="" />
-            <textarea className="textareaFormElement" placeholder="message" name="" id="" rows="5"></textarea>
+            <input 
+              type="text" 
+              className="textFormElement" 
+              placeholder="name" 
+              name="" 
+              id=""
+              value={name}
+              onChange={(e)=> setName(e.target.value)}
+              required
+              />
+            <input 
+              type="text" 
+              className="textFormElement" 
+              placeholder="surname" 
+              name="" 
+              id=""
+              value={surname}
+              onChange={(e)=> setSurname(e.target.value)}
+            />
+            <input 
+              type="text" 
+              className="textFormElement" 
+              placeholder="e-mail" 
+              name="" 
+              id=""
+              value={email}
+              onChange={(e)=> setEmail(e.target.value)}
+               />
+            <input 
+              type="text" 
+              className="textFormElement" 
+              placeholder="phone number" 
+              name="" 
+              id=""
+              value={number}
+              onChange={(e)=> setNumber(e.target.value)}
+            />
+            <input 
+              type="text" 
+              className="textFormElement" 
+              placeholder="subject" 
+              name="" 
+              id=""
+              value={subject}
+              onChange={(e)=> setSubject(e.target.value)}
+            />
+            <textarea 
+              className="textareaFormElement" 
+              placeholder="message" 
+              name="" 
+              id="" 
+              rows="5"
+              value={message}
+              onChange={(e)=> setMessage(e.target.value)}
+            />
             <button type="submit" className="submitButton" onClick={changeSubmitButton}>{submitButton}</button>
         </form>
     </div>
