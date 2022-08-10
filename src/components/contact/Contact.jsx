@@ -12,6 +12,12 @@ const Contact = () => {
   const changeSubmitButton = (e) => {
     setSubmitButton('SUBMITTED');
     e.preventDefault();
+    setName('');
+    setSurname('');
+    setEmail('');
+    setNumber('');
+    setSubject('');
+    setMessage('');
   }
 
   return (
