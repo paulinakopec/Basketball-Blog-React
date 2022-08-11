@@ -1,11 +1,12 @@
-import React, { useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import '../newsletter/newsletter.css';
 
 const Newsletter = () => {
   const [ emailaddress, setEmailAddress ] = useState('');
   const [ button, setButton ] = useState('SIGN UP');
+  const inputEl = useRef(null);
 
-  const changeMessage = (e) => {
+  const onClickMessage = (e) => {
     e.preventDefault();
     if (emailaddress) {
       setButton('SIGNED UP');
@@ -15,6 +16,10 @@ const Newsletter = () => {
       alert('Please fill in the input');
     }
   }
+
+  useEffect(() => {
+    inputEl.current.focus();
+  })
 
   return (
     <div className="newsletter">
@@ -31,8 +36,9 @@ const Newsletter = () => {
               autoFocus={true} 
               onChange={(e) => setEmailAddress(e.target.value)}
               required
+              ref={inputEl}
             />
-            <button className="signUpButton" onClick={changeMessage}>{button}</button>
+            <button className="signUpButton" onClick={onClickMessage}>{button}</button>
         </div>
     </div>
   )
