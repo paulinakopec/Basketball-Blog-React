@@ -17,7 +17,7 @@ const Contact = () => {
       setSubmitButton('SUBMITTED');
       setPerson({firstname:'', surname:'', email:'', number:'', subject:'', message:''});
     } else {
-      alert('Please fill in all inputs.');
+      alert('Please fill in all inputs');
     }
   }
 
