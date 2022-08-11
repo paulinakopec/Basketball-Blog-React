@@ -16,6 +16,7 @@ const Contact = () => {
     if (person.firstname && person.surname && person.email && person.number && person.subject && person.message) { 
       setSubmitButton('SUBMITTED');
       setPerson({firstname:'', surname:'', email:'', number:'', subject:'', message:''});
+      setTimeout(() => setSubmitButton('SUBMIT'), 2000);
     } else {
       alert('Please fill in all inputs');
     }
