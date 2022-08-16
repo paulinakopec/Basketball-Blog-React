@@ -28,7 +28,9 @@ class Topbar extends Component {
                     <li className="topListItem">
                         <Link to="/" className="link">HOME</Link>
                     </li>
-                    <li className="topListItem">CATEGORIES</li>
+                    <li className="topListItem">
+                        <Link to="/categories" className="link">CATEGORIES</Link>
+                    </li>
                     <li className="topListItem">
                         <Link to="/about" className="link">ABOUT ME</Link>
                     </li>

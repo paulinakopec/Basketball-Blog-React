@@ -76,3 +76,51 @@ export const postItems = [
         date: 'July 26, 2022 4:45 PM',
     },
 ]
+
+export const categoryItems = [
+    {
+        id: 1, 
+        img: 'https://m.basketnews.com/image-354605-any480x330.jpg',
+        title: 'News',
+    },
+    {
+        id: 2, 
+        img: 'https://cdn.nba.com/manage/2021/05/westbrook-pacers-1920-210503-1568x882.jpg',
+        title: 'Games',
+    },
+    {
+        id: 3, 
+        img: 'https://i.wpimg.pl/1200x/filerepo.grupawp.pl/api/v1/display/embed/a869c423-678c-49ab-a759-c54f14c38527',
+        title: 'Players',
+    },
+    {
+        id: 4, 
+        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7QqbPJyb4qK_0KhtMnmD83BNHirrQwnpztYgwbhEEoK7qO95f_srgmEzEZFOBmQTxxr0&usqp=CAU',
+        title: 'NBA',
+    },
+    {
+        id: 5, 
+        img: 'https://1.bp.blogspot.com/-IvnVcZRzOtM/Xmardvo4LdI/AAAAAAAApMY/hdgFRkBIF94r_f5IZZK6B9B92QRIU0ougCLcBGAsYHQ/s1600/Curry%2BEUA.jpg',
+        title: 'Teams',
+    },
+    {
+        id: 6, 
+        img: 'https://i0.wp.com/konsolowe.info/wp-content/uploads/2022/08/NBA-2K23-Jordan-Challenge-Screenshot-9.jpg?fit=690%2C388&ssl=1',
+        title: 'Stats',
+    },
+    {
+        id: 7, 
+        img: 'https://play-lh.googleusercontent.com/s_-f-8b5O0pshQGcLc2kxd5Sp0qYSbYgFYRQZGBIbHv9EByGnRh_kRW8MgXoz4w_Z5k',
+        title: 'Eurobasket',
+    },
+    {
+        id: 8, 
+        img: 'https://s6.tvp.pl/images2/6/3/5/uid_6354e9f0ebfb4e66113ad92c8f65da4c1656012672339_width_1200_play_0_pos_0_gs_0_height_678_robert-johnson-fot-pap.jpg',
+        title: 'Energa Basket Liga',
+    },
+    {
+        id: 9, 
+        img: 'https://crowdzone.pl/wp-content/uploads/2020/06/Patronite.jpg',
+        title: 'Donate',
+    },
+]

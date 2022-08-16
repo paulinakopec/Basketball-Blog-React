@@ -12,7 +12,8 @@ import Home from "./pages/home/Home";
 import Single from "./pages/single/Single";
 import AboutMe from "./pages/aboutme/AboutMe";
 import ContactPage from "./pages/contact/ContactPage";
-import SliderPostPage from './pages/sliderpost/SliderPostPage';
+import SliderPostPage from "./pages/sliderpost/SliderPostPage";
+import CategoriesPage from "./pages/categoriespage/CategoriesPage";
 
 function App() {
   useEffect(() => {
@@ -37,6 +38,9 @@ function App() {
       </Routes>
       <Routes>
         <Route path="/sliderpost/:id" element={<SliderPostPage/>} />
+      </Routes>
+      <Routes>
+        <Route path="/categories" element={<CategoriesPage/>} />
       </Routes>
 
 {/* newsletter and footer are components visible on each page */}
