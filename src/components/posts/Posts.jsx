@@ -6,22 +6,22 @@ import { Link } from 'react-router-dom';
 const Posts = () => {
   return (
     <div className="posts">
-      {postItems.map((item)=> (
-        <div className="post" key={item.id}>
-          <img className="postImg" src={item.img} alt="" />
+      {postItems.map((post)=> (
+        <div className="post" key={post.id}>
+          <img className="postImg" src={post.img} alt="" />
           <div className="postInfo">
             <div className="postCategories">
               <span className="postCategory">
-                {item.category}
+                {post.category}
               </span>
               <span className="postCategory">
-                {item.category2}
+                {post.category2}
               </span>
             </div>
             <span className="postTitle">
-              <Link to="/news/billrussell" className="link">{item.title}</Link>
+              <Link to={`/post/${post.id}`} className="link">{post.title}</Link>
             </span>
-            <span className="postDate">{item.date}</span>
+            <span className="postDate">{post.date}</span>
           </div>
           <p className="postDescription">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. 

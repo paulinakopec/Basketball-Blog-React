@@ -12,6 +12,7 @@ import Home from "./pages/home/Home";
 import Single from "./pages/single/Single";
 import AboutMe from "./pages/aboutme/AboutMe";
 import ContactPage from "./pages/contact/ContactPage";
+import SliderPostPage from './pages/sliderpost/SliderPostPage';
 
 function App() {
   useEffect(() => {
@@ -32,7 +33,10 @@ function App() {
         <Route path="/about" element={<AboutMe/>} />
       </Routes>
       <Routes>
-        <Route path="/news/billrussell" element={<Single/>} />
+        <Route path="/post/:id" element={<Single/>} />
+      </Routes>
+      <Routes>
+        <Route path="/sliderpost/:id" element={<SliderPostPage/>} />
       </Routes>
 
 {/* newsletter and footer are components visible on each page */}
