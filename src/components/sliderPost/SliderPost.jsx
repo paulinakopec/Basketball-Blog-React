@@ -6,14 +6,14 @@ import { useParams } from 'react-router-dom';
 
 const SliderPost = () => {
   const [sliderTitle, setSliderTitle] = useState('Default title');
-  const [imgmain, setImgMain] = useState('');
+  const [sliderImg, setSliderImg] = useState('');
   const [date, setDate] = useState('');
   const { id } = useParams();
 
   useEffect(() => {
     const newSliderPost = sliderItems.find((item) => item.id === parseInt(id));
     setSliderTitle(newSliderPost.title);
-    setImgMain(newSliderPost.img);
+    setSliderImg(newSliderPost.img);
     setDate(newSliderPost.date);
   }, []);
   return (
@@ -34,7 +34,7 @@ const SliderPost = () => {
                 <p className="singlePostDate">{date}</p>
             </div>
             <img 
-            src={imgmain}
+            src={sliderImg}
             alt="" 
             className="singlePostImg" 
             />
