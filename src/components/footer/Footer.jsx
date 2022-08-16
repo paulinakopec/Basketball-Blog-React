@@ -3,8 +3,12 @@ import '../footer/footer.css';
 import Mail from '../../img/mail.png';
 import Phone from '../../img/phone.png';
 import Address from '../../img/address.png';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
+  const handleClick = () => {
+    alert('Still working on it...');
+  }
   return (
     <div className="footer">
         <div className="footerLeft">
@@ -26,16 +30,16 @@ const Footer = () => {
         <div className="footerMiddle">
             <h2 className="footerMiddleTitle">Useful Links</h2>
             <ul className="footerList">
-                <li className="listItem">Home</li>
-                <li className="listItem">News</li>
-                <li className="listItem">NBA</li>
-                <li className="listItem">Eurobasket</li>
-                <li className="listItem">PZKOSZ</li>
-                <li className="listItem">Games</li>
-                <li className="listItem">Stats</li>
-                <li className="listItem">Players</li>
-                <li className="listItem">Teams</li>
-                <li className="listItem">Newsletter</li>
+                <li className="listItem"><Link to="/" className="link">Home</Link></li>
+                <li className="listItem" onClick={handleClick}>News</li>
+                <li className="listItem" onClick={handleClick}>NBA</li>
+                <li className="listItem" onClick={handleClick}>Eurobasket</li>
+                <li className="listItem" onClick={handleClick}>PZKOSZ</li>
+                <li className="listItem" onClick={handleClick}>Games</li>
+                <li className="listItem" onClick={handleClick}>Stats</li>
+                <li className="listItem" onClick={handleClick}>Players</li>
+                <li className="listItem" onClick={handleClick}>Teams</li>
+                <li className="listItem" onClick={handleClick}>Newsletter</li>
             </ul>
         </div>
         <div className="footerRight">
