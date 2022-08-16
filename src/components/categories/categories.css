@@ -38,3 +38,13 @@
     font-size: 24px;
     margin-top: 20px;
 }
+
+@media screen and (max-width: 480px) {
+    .categories {
+        margin: 20px 0;
+    }
+
+    .category {
+        margin: 10px;
+    }
+}
