@@ -3,21 +3,25 @@ export const sliderItems = [
         id: 1,
         img: 'https://bi.im-g.pl/im/2b/69/1b/z28744235AMP,Bill-Russell--z-lewej--i--Red--Auerbach--slynny-tr.jpg',
         title: 'Bill Russell dies at age 88',
+        date: '1 hour ago',
     },
     {
         id: 2,
         img: 'https://images.eurohoops.net/2019/05/a9d6b273-draymond-green-golden-state-warriors-625x375.jpg',
         title: 'Draymond Green calls for maximum contract',
+        date: 'August 5, 2022 2:33 PM',
     },
     {
         id: 3,
         img: 'https://library.sportingnews.com/styles/crop_style_16_9_mobile_2x/s3/2022-07/lebron-james-getty-072222-ftr.jpg?itok=_fxT72ib',
         title: 'The phenomenon of Drew League',  
+        date: 'August 3, 2022 10:25 AM',
     },
     {
         id: 4,
         img: 'https://m.natemat.pl/cea95a37eef50e8b9019383f6d308213,0,0,0,0.jpg',
         title: 'Jeremy Sochan follows in the footsteps of Dennis Rodman',
+        date: 'August 2, 2022 9:55 AM',
     },
 
 ]
