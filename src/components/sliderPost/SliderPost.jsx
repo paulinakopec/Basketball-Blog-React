@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import '../sliderPost/sliderPost.css';
+import './sliderPost.css';
 import Profile from '../../img/profile.JPG';
 import { sliderItems } from '../../data';
 import { useParams } from 'react-router-dom';
