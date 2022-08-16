@@ -30,8 +30,6 @@
     border-radius: 10px;
 }
 
-
-
 .categoryTitle {
     color: #be9656;
     font-family: 'Josefin Sans', sans-serif;
@@ -46,5 +44,8 @@
 
     .category {
         margin: 10px;
+    }
+    .category:hover {
+        transform: none;
     }
 }
