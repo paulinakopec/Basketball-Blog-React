@@ -34,12 +34,12 @@ const Footer = () => {
                 <li className="listItem" onClick={handleClick}>News</li>
                 <li className="listItem" onClick={handleClick}>NBA</li>
                 <li className="listItem" onClick={handleClick}>Eurobasket</li>
-                <li className="listItem" onClick={handleClick}>PZKOSZ</li>
+                <li className="listItem" onClick={handleClick}>Energa Basket Liga</li>
                 <li className="listItem" onClick={handleClick}>Games</li>
                 <li className="listItem" onClick={handleClick}>Stats</li>
                 <li className="listItem" onClick={handleClick}>Players</li>
                 <li className="listItem" onClick={handleClick}>Teams</li>
-                <li className="listItem" onClick={handleClick}>Newsletter</li>
+                <li className="listItem" onClick={handleClick}>Donate</li>
             </ul>
         </div>
         <div className="footerRight">
