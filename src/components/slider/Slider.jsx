@@ -118,7 +118,7 @@ const Slider = () => {
                     </ImgContainer>
                     <InfoContainer color={item.color}>
                         <Title>{item.title}</Title>
-                        <Button><Link to={`/sliderpost/${item.id}`} className="link">READ MORE</Link></Button>
+                        <Link to={`/sliderpost/${item.id}`} className="link"><Button>READ MORE</Button></Link>
                     </InfoContainer>
                 </Slide>
             ))}
