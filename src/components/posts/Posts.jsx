@@ -8,7 +8,7 @@ const Posts = () => {
     <div className="posts">
       {postItems.map((post)=> (
         <div className="post" key={post.id}>
-          <img className="postImg" src={post.img} alt="" />
+          <Link to={`/post/${post.id}`} className="link"><img className="postImg" src={post.img} alt="" /></Link>
           <div className="postInfo">
             <div className="postCategories">
               <span className="postCategory">
